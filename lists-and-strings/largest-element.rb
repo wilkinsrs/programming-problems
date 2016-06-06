@@ -1,19 +1,5 @@
 # Write a function that returns the largest element in a list.
 
-#define the function that returns the largest element in a list
-#def largest(array)
-    
-    #check if the argument is an array - if so, return largest number
-#    if array.is_a?(Array)
-#        puts array.max
-    # if it's not an array, exit
-#    else
-#        print "Error: Expected array argument"
-#        exit
-#    end
-#end
-
-
 #instantiate an array
 numbers = []
 
@@ -22,10 +8,7 @@ until numbers.count == 20 do
     numbers << rand(0..100)
 end
 
-#call the function on the array
-#largest(numbers)
-
-
+#define the function
 def largest(array)
     #make a variable that will store the first value of the array
     largest = array.first
@@ -44,8 +27,7 @@ def largest(array)
     puts largest
 end
 
-puts numbers
-
+#call the function
 largest(numbers)
             
     
