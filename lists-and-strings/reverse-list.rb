@@ -32,4 +32,26 @@ end
 # print out the reversed list to show that the list has been reversed
 puts "reversed list: #{list}"
 
+#####################################
+# a simpler version, by alexfish (https://gist.github.com/alexfish/926521)
+
+
+#i = 0
+#j = array.length - 1
+#
+#while i < j do
+#
+#  last = array[j]
+#  first = array[i]
+#	
+#  array[i] = last
+#  array[j] = first
+#
+#  i += 1
+#  j -= 1
+#
+#end
+#
+#puts array
+
 
